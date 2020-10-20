@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "Aniron";
+  src: url("Aniron.ttf");
+}
+@font-face {
+  font-family: "Bilbo";
+  src: url("Bilbo.ttf");
+}
+@font-face {
+  font-family: "Elvish";
+  src: url("Elvish.ttf");
+}
+@font-face {
+  font-family: "Dwarfish";
+  src: url("Dwarfish.ttf");
+}
+
+html { font-size: 62.5%; } 
+
+body {
+  font-family: 'Cormorant', serif;
+  font-size: 1.2rem;
+  fill: #b9b9b9;
+}
+
+.lotr-content-wrapper {
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+#lotr-title {
+	font-family: 'Aniron', cursive;
+	font-size: 30px;
+	font-weight: 300;
+	margin: 40px 30px 0px 30px;
+	color: #272727;
+}
+
+#lotr-subtitle {
+	font-size: 14px;
+	color: #9a9a9a;
+	margin: 0px 30px 20px 30px;
+	font-weight: 300;
+}
+
+#lotr-intro {
+	font-size: 16px;
+	margin: 0px 30px 10px 30px;
+	max-width: 800px;
+}
+
+#lotr-note {
+	font-size: 14px;
+	margin: 0px 30px 10px 30px;
+	max-width: 800px;
+	color: #9a9a9a;
+	font-weight: 300;
+}
+
+#lotr-chart {
+	text-align: center;
+}
+
+#lotr-credit {
+	float: right;
+	font-size: 14px;
+	margin: 0px 30px 5px 30px;
+	padding-bottom: 20px;
+	color: #9a9a9a;
+}
+
+#lotr-sources {
+	float: left;
+	font-size: 14px;
+	margin: 0px 30px 5px 30px;
+	color: #9a9a9a;
+}
+
+a:hover {
+  	text-decoration: none;
+  	border-bottom: 1px solid black;
+}
+
+a, a:link, a:visited, a:active {
+	text-decoration: none;
+  	color: black;
+  	border-bottom: 1px dotted rgba(0, 0, 0, .5);
+}
+
+.MiddleEarth {
+	color: #53821a;
+}
+
+/*--- chart ---*/
+
+.name-title {
+	font-family: 'Aniron', cursive;
+	font-size: 1.8rem;
+	fill: #232323;
+	cursor: default;
+	text-anchor: middle;
+}
+
+.value-title {
+	font-family: 'Bilbo', serif;
+	text-anchor: middle;
+	font-size: 2.1rem;
+  	fill: #b9b9b9;
+}
+
+.character-note {
+	text-anchor: middle;
+	font-size: 1.4rem;
+  	fill: #232323;
+}
+			
+.inner-label {
+	font-family: 'Aniron', cursive;
+	font-size: 1.0rem;
+	fill: #232323;
+	cursor: default;
+}
+
+.elvish-outer-label {
+	font-family: 'Elvish', cursive;
+	font-size: 4rem;
+	fill: #e2e2e2;
+	cursor: default;
+}
+.dwarfish-outer-label {
+	font-family: 'Dwarfish', cursive;
+	font-size: 4rem;
+	fill: #e2e2e2;
+	cursor: default;
+}
+
+.outer-label {
+	font-family: 'Aniron', cursive;
+	font-size: 1.1rem;
+	fill: #5f5f5f;
+	cursor: default;
+}
+
+.outer-label-value {
+	font-family: 'Bilbo', serif;
+  	font-size: 1.3rem;
+  	fill: #878787;
+}
+
+.ring-text {
+	font-family: 'Elvish', cursive;
+	font-size: 2rem;
+	fill: #da6f0b;
+	opacity: 0.3;
+	text-anchor: middle;
+}
